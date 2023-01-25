@@ -27,6 +27,6 @@ var maxProductDifference = function(nums) {
         [maxInteger1,maxInteger2] = [max2,min2]
 
     })
-
+console.log(true)
     return (maxInteger1 * maxInteger2) - (minInteger1 * minInteger2)
 };
