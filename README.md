@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-This repository contains my solutions to various coding problems from LeetCode. I solve problems in JavaScript or TypeScript, and the solutions are organized by problem number.
+This repository contains my solutions to various coding problems from LeetCode. I solved problems in JavaScript and TypeScript, and the solutions are organized by problem number.
 
 ## Purpose
 
