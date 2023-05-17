@@ -12,10 +12,17 @@ Please note that these solutions represent my own understanding and implementati
 
 ## Solved Problems
 
-| Problem Number | Problem Name                                           |
-| -------------- | ------------------------------------------------------ |
-| 1              | Two Sum                                                |
-| 143            | Reorder List                                           |
-| ...            | ...                                                    |
+| Problem Number | Problem Name                                           | Links |
+| -------------- | ------------------------------------------------------ | ----- |
+| 1              | Two Sum                                                | [<img src="https://cdn.iconscout.com/icon/free/png-256/free-leetcode-3521542-2944960.png" alt= "leetcode icon" width="20px">][Two Sum LeetCode]  [<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt= "github icon" width="20px">][Two Sum Github] |
+| 143            | Reorder List                                           | [<img src="https://cdn.iconscout.com/icon/free/png-256/free-leetcode-3521542-2944960.png" alt= "leetcode icon" width="20px">][Reorder List LeetCode]  [<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt= "github icon" width="20px">][Reorder List Github] |
+| ...            | ...                                                    |  |
 
 Happy coding!
+
+
+[Two Sum LeetCode]: https://www.google.com
+[Two Sum Github]: https://www.google2.com
+
+[Reorder List LeetCode]: https://www.google3.com
+[Reorder List Github]: https://www.google4.com
