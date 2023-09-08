@@ -4,7 +4,6 @@ function timeLimit(fn: Fn, t: number): Fn {
     const start = Date.now()
 	return async function(...args) {
         return new Promise((resolve,reject)=>{
-            // console.log(args)
             let result : unknown
             fn(...args).then(data=>result = data).catch(err=>reject(err))
 
