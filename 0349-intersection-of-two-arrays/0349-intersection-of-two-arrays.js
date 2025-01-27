@@ -1,20 +1,19 @@
-/**
- * @param {number[]} nums1
- * @param {number[]} nums2
- * @return {number[]}
- */
-var intersection = function(nums1, nums2) {
-
-    const uniqueNums1 = [... new Set(nums1)]
-    const uniqueNums2 = [... new Set(nums2)]
-    const intersection = []
+function intersection(nums1: number[], nums2: number[]): number[] {
+  
+    const intersectionArr = []
     
-    const arr1Obj = uniqueNums1.reduce((acc,num)=> ({...acc, [num] : true}) ,{})
-
-    uniqueNums2.forEach(num=>{
-        if(arr1Obj[num]) intersection.push(num)
-    })
-
-    return intersection
-
+    const [smallerArr, largerArr] = nums1.length <= nums2.length ? [nums1, nums2] : [nums2, nums1]
+    
+    for (const num of smallerArr){
+        if(intersectionArr.includes(num)){
+           continue
+        }
+        
+        if(largerArr.includes(num)){
+            intersectionArr.push(num)   
+        }
+        
+    }
+    
+    return intersectionArr
 };
